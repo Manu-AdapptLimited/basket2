@@ -6,6 +6,7 @@ class DeliveryAdd extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         leading: IconButton(
             icon: Icon(
@@ -35,7 +36,8 @@ class DeliveryAdd extends StatelessWidget {
                 thickness: 2.0,
                 ),
                 LocationBtn(),
-                
+                AddContainer()
+
 
               ],
             ),

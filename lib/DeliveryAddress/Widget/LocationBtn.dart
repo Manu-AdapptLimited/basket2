@@ -15,7 +15,7 @@ class _LocationBtnState extends State<LocationBtn> {
         ),
         borderRadius: BorderRadius.all(Radius.circular(3)),
       ),
-      margin: EdgeInsets.only(left: 8, right: 8, top: 5, bottom: 5),
+      margin: EdgeInsets.only(left: 8, right: 8, top: 5, bottom: 10),
       width: MediaQuery.of(context).size.width,
       height: 35,
       child: FlatButton.icon(
