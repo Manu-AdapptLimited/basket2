@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Offer(),
+      home: DeliveryAdd(),
     );
   }
 }
