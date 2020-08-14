@@ -1,3 +1,4 @@
+
 import 'package:flutter/material.dart';
 
 import 'Exports.dart';
@@ -17,7 +18,7 @@ class MyApp extends StatelessWidget {
         primaryColor: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: EditAdd(),
+      home:EditAdd(),
     );
   }
 }

@@ -29,8 +29,11 @@ class EditAdd extends StatelessWidget {
               minHeight: viewportConstraints.maxHeight,
             ),
             child: Column(
+              crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                PersonDetails(),
+               AddressDetails()
+
                
                 
               ],

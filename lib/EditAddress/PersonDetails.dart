@@ -5,8 +5,8 @@ class PersonDetails extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       margin: EdgeInsets.only(
-        left: 10,
-        right: 10,
+        left: 15,
+        right: 15,
         top: 5,
       ),
       height: 55,

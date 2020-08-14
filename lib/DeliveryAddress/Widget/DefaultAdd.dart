@@ -18,7 +18,7 @@ class _DefaultAddState extends State<DefaultAdd> {
     return Container(
       color: Colors.white,
       padding: EdgeInsets.only(top: 5,bottom: 5),
-      margin: EdgeInsets.only(bottom: 4),
+      margin: EdgeInsets.only(bottom: 2),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
